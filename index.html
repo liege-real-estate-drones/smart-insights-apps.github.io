@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Politique de Confidentialité - DroneWeather</title>
+    <style>
+        :root {
+            --bg-color-light: #ffffff;
+            --text-color-light: #212529;
+            --border-color-light: #dee2e6;
+            --primary-color-light: #0d6efd;
+            --header-bg-light: #f8f9fa;
+
+            --bg-color-dark: #121212;
+            --text-color-dark: #e9ecef;
+            --border-color-dark: #343a40;
+            --primary-color-dark: #4dabf7;
+            --header-bg-dark: #1c1c1c;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-color-light);
+            color: var(--text-color-light);
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        h1, h2, h3 {
+            font-weight: 600;
+            line-height: 1.2;
+        }
+        h1 {
+            color: var(--primary-color-light);
+            text-align: center;
+            border-bottom: 2px solid var(--border-color-light);
+            padding-bottom: 0.5rem;
+            margin-bottom: 2rem;
+        }
+        h2 {
+            margin-top: 2.5rem;
+            border-bottom: 1px solid var(--border-color-light);
+            padding-bottom: 0.3rem;
+        }
+        h3 {
+            margin-top: 1.5rem;
+            color: var(--primary-color-light);
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 0.5rem;
+        }
+        code {
+            background-color: var(--header-bg-light);
+            padding: 2px 5px;
+            border-radius: 4px;
+            font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+        }
+        .lang-section {
+            padding: 1rem;
+            margin-bottom: 2rem;
+            border: 1px solid var(--border-color-light);
+            border-radius: 8px;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 3rem;
+            font-size: 0.9em;
+            color: #6c757d;
+        }
+        .disclaimer {
+            background-color: #fff3cd;
+            color: #664d03;
+            padding: 1rem;
+            border: 1px solid #ffecb5;
+            border-radius: 8px;
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            body {
+                background-color: var(--bg-color-dark);
+                color: var(--text-color-dark);
+            }
+            h1 {
+                color: var(--primary-color-dark);
+                border-bottom-color: var(--border-color-dark);
+            }
+            h2 {
+                 border-bottom-color: var(--border-color-dark);
+            }
+            h3 {
+                color: var(--primary-color-dark);
+            }
+            code {
+                background-color: var(--border-color-dark);
+            }
+           .lang-section {
+                border-color: var(--border-color-dark);
+            }
+            .disclaimer {
+                background-color: #3e381b;
+                color: #ffda6a;
+                border-color: #5d5123;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Politique de Confidentialité de DroneWeather</h1>
+
+        <div class="disclaimer">
+            <strong>Disclaimer:</strong> Ce document a été généré par une IA sur la base de l'analyse du code. Il est fourni à titre informatif et doit être examiné par un professionnel pour garantir sa conformité légale.
+        </div>
+
+        <div id="fr" class="lang-section">
+            <h2>Version Française</h2>
+            <p><strong>Dernière mise à jour :</strong> 7 juin 2025</p>
+
+            <h3>1. Introduction</h3>
+            <p>Bienvenue sur DroneWeather. Cette politique de confidentialité explique quelles données nous collectons, comment nous les utilisons et les partageons lorsque vous utilisez notre application web et notre Progressive Web App (PWA) "DroneWeather". Votre vie privée est importante pour nous, et nous nous engageons à la protéger.</p>
+
+            <h3>2. Données que nous collectons</h3>
+            <p>Nous collectons différents types de données pour fournir et améliorer notre service :</p>
+            <ul>
+                <li>
+                    <strong>Données de localisation :</strong> Lorsque vous utilisez la fonction "Localiser", recherchez une adresse ou cliquez sur la carte, nous utilisons vos coordonnées de latitude et longitude. Cette donnée est essentielle pour fournir des informations contextuelles. Elle n'est pas stockée sur nos serveurs.
+                </li>
+                <li>
+                    <strong>Paramètres du drone :</strong> Vous pouvez sélectionner un profil de drone prédéfini ou entrer des paramètres personnalisés (vitesse maximale du vent, plage de température). Ces informations sont utilisées uniquement pour l'évaluation de la sécurité des vols.
+                </li>
+                <li>
+                    <strong>Données stockées localement :</strong> Pour améliorer votre expérience, nous utilisons le stockage local de votre navigateur (Local Storage) pour sauvegarder vos préférences, telles que votre dernier emplacement sélectionné, votre profil de drone par défaut et vos préférences d'affichage de la carte. Ces données restent sur votre appareil et ne sont pas transmises à nos serveurs.
+                </li>
+            </ul>
+
+            <h3>3. Comment nous utilisons vos données</h3>
+            <p>Les données collectées sont utilisées exclusivement pour les finalités suivantes :</p>
+            <ul>
+                <li><strong>Fournir les services de base :</strong> Afficher les données météorologiques, les prévisions, l'altitude du terrain et les zones géographiques UAV pertinentes pour votre localisation.</li>
+                <li><strong>Évaluer la sécurité des vols :</strong> Envoyer un ensemble de données anonymisées (météo, paramètres du drone, informations sur les zones) à notre service d'intelligence artificielle (Google Gemini via Genkit) pour générer une recommandation de sécurité.</li>
+                <li><strong>Personnaliser votre expérience :</strong> Mémoriser vos préférences pour une utilisation future de l'application.</li>
+            </ul>
+
+            <h3>4. Partage des données avec des services tiers</h3>
+            <p>Nous ne vendons pas vos données personnelles. Cependant, nous partageons certaines informations avec des services tiers pour faire fonctionner l'application :</p>
+            <ul>
+                <li><strong>Google Maps Platform :</strong> Vos coordonnées sont envoyées aux API Google (Maps, Places, Geocoding, Elevation) pour afficher la carte, permettre la recherche d'adresses et obtenir l'altitude du terrain.</li>
+                <li><strong>Open-Meteo & OpenWeatherMap :</strong> Vos coordonnées sont envoyées à ces services pour obtenir les données météorologiques.</li>
+                <li><strong>Skeyes (via ArcGIS) :</strong> L'application interroge les serveurs d'ArcGIS pour récupérer les informations sur les zones géographiques UAV belges. Aucune donnée personnelle n'est envoyée lors de cette requête.</li>
+                <li><strong>Google AI (Gemini) :</strong> Un ensemble de données contextuelles et anonymes est envoyé pour analyse. Cela inclut les conditions météorologiques, les paramètres de votre drone et les détails des zones aériennes croisées, mais n'inclut pas votre localisation précise ou toute information personnelle identifiable.</li>
+                <li><strong>Firebase (Google) :</strong> Nous utilisons Firebase App Hosting pour héberger notre application. Des données de performance anonymes peuvent être collectées par Google pour assurer la stabilité du service.</li>
+            </ul>
+
+            <h3>5. Sécurité des données</h3>
+            <p>Nous prenons la sécurité de vos données au sérieux. Les communications entre votre appareil et nos services, ainsi qu'avec les services tiers, sont chiffrées via HTTPS. Cependant, aucune méthode de transmission sur Internet ou de stockage électronique n'est sûre à 100 %.</p>
+
+            <h3>6. Vos droits et choix</h3>
+            <ul>
+                <li><strong>Géolocalisation :</strong> Vous pouvez refuser la permission de géolocalisation dans votre navigateur. L'application restera fonctionnelle, mais vous devrez entrer les emplacements manuellement.</li>
+                <li><strong>Stockage local :</strong> Vous pouvez effacer le stockage local de votre navigateur à tout moment via les paramètres de celui-ci pour supprimer vos préférences sauvegardées.</li>
+            </ul>
+
+            <h3>7. Modifications de cette politique</h3>
+            <p>Nous pouvons mettre à jour cette politique de confidentialité de temps à autre. Nous vous informerons de tout changement en publiant la nouvelle politique sur cette page. Il est conseillé de consulter cette politique périodiquement.</p>
+
+            <h3>8. Nous contacter</h3>
+            <p>Si vous avez des questions concernant cette politique de confidentialité, veuillez nous contacter à :<br>
+            <strong>[Votre adresse e-mail de contact]</strong>
+            </p>
+        </div>
+
+        <div id="en" class="lang-section">
+            <h2>English Version</h2>
+            <p><strong>Last Updated:</strong> June 7, 2025</p>
+
+            <h3>1. Introduction</h3>
+            <p>Welcome to DroneWeather. This Privacy Policy explains what data we collect, how we use and share it when you use our web application and Progressive Web App (PWA) "DroneWeather". Your privacy is important to us, and we are committed to protecting it.</p>
+
+            <h3>2. Data We Collect</h3>
+            <p>We collect different types of data to provide and improve our service:</p>
+            <ul>
+                <li>
+                    <strong>Location Data:</strong> When you use the "Locate Me" feature, search for an address, or click on the map, we use your latitude and longitude coordinates. This data is essential for providing contextual information. It is not stored on our servers.
+                </li>
+                <li>
+                    <strong>Drone Parameters:</strong> You can select a predefined drone profile or enter custom parameters (maximum wind speed, temperature range). This information is used solely for flight safety assessment.
+                </li>
+                <li>
+                    <strong>Locally Stored Data:</strong> To enhance your experience, we use your browser's Local Storage to save your preferences, such as your last selected location, default drone profile, and map display preferences. This data remains on your device and is not transmitted to our servers.
+                </li>
+            </ul>
+
+            <h3>3. How We Use Your Data</h3>
+            <p>The collected data is used exclusively for the following purposes:</p>
+            <ul>
+                <li><strong>Providing Core Services:</strong> To display weather data, forecasts, terrain elevation, and relevant UAV geozones for your location.</li>
+                <li><strong>Assessing Flight Safety:</strong> To send an anonymized dataset (weather, drone parameters, zone information) to our artificial intelligence service (Google Gemini via Genkit) to generate a safety recommendation.</li>
+                <li><strong>Personalizing Your Experience:</strong> To remember your preferences for future use of the application.</li>
+            </ul>
+
+            <h3>4. Data Sharing with Third-Party Services</h3>
+            <p>We do not sell your personal data. However, we do share some information with third-party services to operate the application:</p>
+            <ul>
+                <li><strong>Google Maps Platform:</strong> Your coordinates are sent to Google APIs (Maps, Places, Geocoding, Elevation) to display the map, enable address search, and obtain terrain elevation.</li>
+                <li><strong>Open-Meteo & OpenWeatherMap:</strong> Your coordinates are sent to these services to obtain weather data.</li>
+                <li><strong>Skeyes (via ArcGIS):</strong> The application queries ArcGIS servers to retrieve information about Belgian UAV geozones. No personal data is sent in this request.</li>
+                <li><strong>Google AI (Gemini):</strong> A contextual and anonymous dataset is sent for analysis. This includes weather conditions, your drone's parameters, and details of intersecting airspaces, but does not include your precise location or any personally identifiable information.</li>
+                <li><strong>Firebase (Google):</strong> We use Firebase App Hosting to host our application. Anonymous performance data may be collected by Google to ensure service stability.</li>
+            </ul>
+
+            <h3>5. Data Security</h3>
+            <p>We take the security of your data seriously. Communications between your device and our services, as well as with third-party services, are encrypted via HTTPS. However, no method of transmission over the Internet or method of electronic storage is 100% secure.</p>
+
+            <h3>6. Your Rights and Choices</h3>
+            <ul>
+                <li><strong>Geolocation:</strong> You can deny geolocation permission in your browser. The application will remain functional, but you will need to enter locations manually.</li>
+                <li><strong>Local Storage:</strong> You can clear your browser's local storage at any time through its settings to remove your saved preferences.</li>
+            </ul>
+
+            <h3>7. Changes to This Policy</h3>
+            <p>We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new policy on this page. You are advised to review this policy periodically.</p>
+
+            <h3>8. Contact Us</h3>
+            <p>If you have any questions about this Privacy Policy, please contact us at:<br>
+            <strong>[Your Contact Email Address]</strong>
+            </p>
+        </div>
+
+        <div class="footer">
+            <p>&copy; 2025 DroneWeather. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
